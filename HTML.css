@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café nas Nuvens ☁️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --azul: #AEE3F9;
+      --rosa: #FAD4D4;
+      --nude: #F6E6DA;
+      --cafe: #8B6A5C;
+      --branco: #FFFFFF;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background: var(--azul);
+      color: var(--cafe);
+      text-align: center;
+      padding: 20px;
+    }
+
+    header {
+      background-color: var(--nude);
+      padding: 30px 10px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin: 10px 0 0 0;
+    }
+
+    .pdf-links, .social-links {
+      margin: 30px 0;
+    }
+
+    .pdf-links a, .social-links a {
+      display: block;
+      background: var(--rosa);
+      color: var(--cafe);
+      text-decoration: none;
+      margin: 10px auto;
+      padding: 12px 20px;
+      width: 80%;
+      max-width: 300px;
+      border-radius: 15px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .pdf-links a:hover, .social-links a:hover {
+      background: var(--nude);
+    }
+
+    footer {
+      font-size: 0.9em;
+      color: var(--cafe);
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>☕ Café nas Nuvens ☁️</h1>
+    <p>Leitura leve, doce e inspiradora como um café entre nuvens.</p>
+  </header>
+
+  <section class="pdf-links">
+    <h2>📚 Meus Livros em PDF</h2>
+    <a href="LINK_DO_PDF_1" target="_blank">📖 A Garota do Orfanato</a>
+    <a href="LINK_DO_PDF_2" target="_blank">📖 Segredos entre as Nuvens</a>
+    <a href="LINK_DO_PDF_3" target="_blank">📖 Diário de uma Leitora</a>
+  </section>
+
+  <section class="social-links">
+    <h2>✨ Me encontre aqui</h2>
+    <a href="https://www.instagram.com/seuuser" target="_blank">📸 Instagram</a>
+    <a href="https://www.tiktok.com/@seuuser" target="_blank">🎵 TikTok</a>
+    <a href="https://www.pinterest.com/seuuser" target="_blank">📌 Pinterest</a>
+    <a href="https://kiwify.com.br/loja/seuloja" target="_blank">🛍️ Loja na Kiwify</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Café nas Nuvens | Feito com ☕ e sonhos</p>
+  </footer>
+</body>
+</html>
